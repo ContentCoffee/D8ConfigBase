@@ -1,0 +1,11 @@
+uuid: be3f52e9-0c03-4448-b384-ac6059e64228
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.brick
+_core:
+  default_config_hash: PtHUWnKBjkY6arIa6Kzyat2LivICr1f5J2-QPrCdZ1k
+name: Image
+type: image
+description: ''

@@ -1,0 +1,15 @@
+uuid: bfc54445-6831-43af-9734-ed7486787bd8
+langcode: en
+status: true
+dependencies: {  }
+id: content
+label: Content
+host_entity_type: node
+host_bundles: {  }
+child_entity_type: brick
+child_bundles: {  }
+child_bundles_default: text
+hide_single_option_sizes: false
+hide_single_option_alignments: false
+show_size_column: 0
+show_alignment_column: false

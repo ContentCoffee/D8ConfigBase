@@ -1,0 +1,11 @@
+uuid: bfabcd52-6010-489e-a107-5c1feaebbd0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.brick
+_core:
+  default_config_hash: Nxdo55QN2801rQjwjvd_fYRkCBWJRqy6q1jUCaGNIjA
+name: 'Call To Action'
+type: call_to_action
+description: ''

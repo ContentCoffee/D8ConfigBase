@@ -1,0 +1,20 @@
+uuid: 8b382016-4c80-4ef1-8736-e2adaf323737
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - singles
+third_party_settings:
+  singles:
+    isSingle: 1
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Home Page'
+type: home_page
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

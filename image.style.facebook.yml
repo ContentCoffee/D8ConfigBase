@@ -1,0 +1,15 @@
+uuid: 04b47f93-9c2c-42f0-9d22-44da3cb480ba
+langcode: en
+status: true
+dependencies: {  }
+name: facebook
+label: Facebook
+effects:
+  97dae2b4-d3ec-4a57-98da-c5be1388b706:
+    uuid: 97dae2b4-d3ec-4a57-98da-c5be1388b706
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 630
+      anchor: center-center

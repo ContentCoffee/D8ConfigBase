@@ -1,0 +1,22 @@
+uuid: 76e051ee-3832-4539-9087-ef5bb1eaee69
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  title: '[current-page:title] | [site:name]'
+  content_language: '[node:language]'
+  canonical_url: '[current-page:url]'
+  description: '[node:field_description]'
+  image_src: '[node:field_image:large]'
+  og_type: website
+  og_image_width: '1200'
+  og_image: '[node:field_image:facebook]'
+  og_image_height: '630'
+  og_url: '[current-page:url]'
+  og_description: '[node:field_description]'
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title]'

@@ -1,0 +1,40 @@
+uuid: f7eabdb5-f160-4362-bb7e-c8b5c3f7db68
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.brick.image
+    - field.field.brick.image.field_image
+    - image.style.thumbnail
+  module:
+    - image
+_core:
+  default_config_hash: qUOPbvz9i6cUw-nqqih7nUlJPrgthgjv3YkhFrAde7c
+id: brick.image.default
+targetEntityType: brick
+bundle: image
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  content_alignment: true
+  content_container: true
+  content_parent: true
+  content_parent_type: true
+  content_size: true
+  content_weight: true
+  title: true

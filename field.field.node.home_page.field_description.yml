@@ -1,0 +1,19 @@
+uuid: 2364d23d-a114-4ba5-ac3d-3779d37602fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.home_page
+id: node.home_page.field_description
+field_name: field_description
+entity_type: node
+bundle: home_page
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
