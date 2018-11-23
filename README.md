@@ -4,10 +4,16 @@ This is a config base for D8+ that will get most things going and provide much b
 ## Usage
 Download the zip of this and put it in to the sync dir of your ^FRESH^ D8 install.
 
-Then change the site uuid in the
+Then change the site uuid in the file:
 
 ```
 system.site.yml
+```
+
+If you are using the Content and Coffee DupalBase then your config dir will be in the directory:
+
+```
+config/sync
 ```
 
 Use this command to get your current site uuid.
