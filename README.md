@@ -1,2 +1,19 @@
 # D8ConfigBase
 This is a config base for D8+ that will get most things going and provide much boiler plate.
+
+## Usage
+Download the zip of this and put it in to the sync dir of your ^FRESH^ D8 install.
+
+Then change the site uuid in the
+
+```
+system.site.yml
+```
+
+Use this command to get your current site uuid.
+
+Ex,
+```
+> ../vendor/drush/drush/drush config-get "system.site" uuid
+'system.site:uuid': ea80dc18-ae20-4b57-bb7d-6090b2b8a957
+```
