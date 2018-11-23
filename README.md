@@ -2,7 +2,7 @@
 This is a config base for D8+ that will get most things going and provide much boiler plate.
 
 ## Usage
-Download the zip of this and put it in to the sync dir of your ^FRESH^ D8 install.
+Download the zip of this and put it in to the sync dir of your "FRESH" D8 install.
 
 Then change the site uuid in the file:
 
